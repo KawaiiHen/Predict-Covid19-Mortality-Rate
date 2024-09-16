@@ -5,11 +5,7 @@ The first project we will be taking some of the SQL queries in CovidQuery.sql an
 Link to Dataset that was use in CovidQuery: https://ourworldindata.org/covid-deaths.
 
 # Predict Covid19 Mortality Rate based on Medical history
-About this project we had provide a comprehensive analysis inside Predict_Mortality_Rate_based_on_Medical_history.ipynb. But here is the summary workflow:
-
-# Mortality Rate Prediction Using Medical History
-
-This project predicts mortality rates based on patients' medical histories using various machine learning and deep learning models. The following workflow outlines the key steps involved in the process.
+About this project we had provide a comprehensive analysis inside Predict_Mortality_Rate_based_on_Medical_history.ipynb. But here is the workflow outlines the key steps involved in the process.
 
 ## Workflow
 ### 1. Data Preprocessing
