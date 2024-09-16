@@ -27,9 +27,10 @@ This project predicts mortality rates based on patients' medical histories using
      - Visualized data distributions for numerical features (e.g., `AGE`) and binary features using histograms and bar plots.
      - Performed correlation analysis with a Pearson correlation matrix heatmap to identify relationships between features.
 
-### 3. Feature Selection
-   - **Objective**: Select the most relevant features for predictive modeling.
+### 3. Feature Engineering and Feature Selection
+   - **Objective**: To create new, meaningful input variables and to select the most relevant features for predictive modeling.
    - **Steps**:
+     - Transformed medical history data into binary features (e.g., IS_MALE, HAS_DIABETES, IS_ICU, IS_DEAD) to represent conditions and outcomes more clearly.Convert DATE_DIED into binary feature IS_DEAD to simplify the prediction target
      - Applied `SelectKBest` with ANOVA F-test (`f_classif`) to choose features that are most predictive of mortality.
      - Standardized the features using `StandardScaler` to ensure that continuous variables have a similar scale.
 
